@@ -1,0 +1,32 @@
+Coursera-Developing Data Products Proj.
+========================================================
+author: Shayan Jawed
+date: 19th September 2014
+
+Introduction
+========================================================
+
+This app is created to give an idea about the distributions one can get started with using R.
+Following are the main characteristics:
+- Upto 1000 random number generation
+- Distributions including Normal,Uniform,Log-normal and Exponential.
+- Beautiful Plots.
+
+Usability
+========================================================
+
+On the left Panel you can choose a distribution and the number of trials to see some basic commands on the right top tabs including Plot.
+
+Fitting Normal Distribution
+========================================================
+
+```{r, echo=FALSE}
+set.seed(7)
+hist(rnorm(1000),col="blue",breaks=100)
+```
+Summary of the Data
+========================================================
+```{r, echo=FALSE}
+set.seed(7)
+summary(rnorm(1000))
+```
